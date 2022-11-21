@@ -1,0 +1,262 @@
+body {
+    background-color: #2f3848;
+    width: 900px;
+    margin: auto;
+    padding: 1em;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    font-style: italic;
+    text-align: center;
+    background-color: #f05768;
+    padding-bottom: 0.50em;
+    margin-bottom: 1em;
+    border-bottom: 3px solid rgb(173, 216, 230);
+    border-bottom-left-radius: 8px 4px;
+    border-bottom-right-radius: 8px 4px;
+}
+
+#liens {
+    padding: 2em;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#liens .menu {
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+}
+
+.menu a {
+    font-size: 2em;
+    margin-right: 0.50em;
+    color: yellowgreen
+}
+
+#liens .reseaux {
+    position: absolute;
+    right: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#twitter_icon img {
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+}
+
+#facebook_icon img {
+    width: 3em;
+    height: 3em;
+}
+
+#intro {
+    color: white;
+    font-weight: bold;
+    font-size: 86%;
+}
+
+h2 {
+    color: #0198cc;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 3em;
+}
+
+p {
+    font-size: 2.5em;
+    margin-top: 1em;
+}
+
+#undergreen {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+/*Big caméléon*/
+/* main {
+    height: 1800px;
+} */
+
+h3 {
+    background-color: #f05768;
+    color: white;
+    margin-right: 1em;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    padding: 0.2em 0.6em;
+    position: absolute;
+}
+
+#bigimage {
+    margin-bottom: 1.2em;
+    margin-top: 1.2em;
+    position: relative;
+}
+
+/*partie gallerie + submit */
+
+
+#gallery-submit {
+    flex-direction: column;
+}
+
+#gallery {
+    text-align: center;
+    width: 100%;
+}
+
+#firstcham,
+.othercham {
+    width: 90%;
+    margin-top: 20px;
+}
+
+#submit {
+    background-color: #004488;
+    font-weight: 900;
+    padding: 1em;
+    margin: 5px;
+}
+
+#submit a {
+    text-decoration: underline;
+    color: yellowgreen;
+
+}
+
+h4,
+.submitlinks {
+    font-size: 2em;
+}
+
+
+h4 {
+    color: #00ccff;
+    text-transform: uppercase;
+    border-bottom: solid 1px #00ccff;
+    padding-bottom: 1em;
+}
+
+.submitlinks {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+/* Pied de page*/
+footer {
+    color: #00ccff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+/* MEDIA QUERIES */
+
+@media(min-width: 501px) and (max-width: 768px) {
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.7em;
+    }
+
+    #gallery-submit {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #gallery {
+        width: 100%;
+    }
+
+    #firstcham,
+    .othercham {
+        width: 49%;
+        margin-top: 2px;
+    }
+
+    #submit {
+        width: 100%;
+    }
+
+    h4,
+    p.submitlinks {
+        font-size: 1.5em;
+    }
+
+    footer p {
+        font-size: 1.2em;
+    }
+}
+
+@media(min-width: 769px) {
+
+    .menu a {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        margin-right: 25em;
+    }
+
+    #gallery-submit {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #gallery {
+        max-width: 70%;
+        padding-left: 0em;
+    }
+
+    #firstcham {
+        width: 48%;
+        margin-top: 5px;
+        margin-right: 7px;
+        float: left;
+    }
+
+    .othercham {
+        width: 24%;
+        margin-top: 5px;
+        margin-left: 0em;
+    }
+
+    #submit {
+        width: 29%;
+        height: 23em;
+        margin-right: 0em;
+    }
+
+    h4,
+    p.submitlinks {
+        font-size: 1em;
+    }
+
+    footer p {
+        font-size: 1em;
+    }
+
+}
