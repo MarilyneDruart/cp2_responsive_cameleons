@@ -1,4 +1,4 @@
-# Réaliser une interface web statique et adaptable
+# Titre Professionnel - Compétence 2 : Réaliser une interface web statique et adaptable
 
 Création de la page d'accueil d'un blog à l'identique d'une image fournie, en mobile first.
 Le fichier CSS (qui définit la présentation / mise en page d’un document HTML) a été travaillé de sorte à ce que la taille des images, polices, icônes soit modifiée en fonction de la taille de l’écran. Les blocs de code ont également été modifiés (nombre d’images par colonne et place du formulaire).
